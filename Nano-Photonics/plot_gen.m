@@ -65,7 +65,7 @@ xlabel('Wavelength (nm)')
 set(h,'Units','Inches');
 pos = get(h,'Position');
 set(h,'PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
-name_tmp='MILP/Data/anano_sphere_performance.pdf';
+name_tmp='MILP/Data/nano_sphere_performance.pdf';
 print(h,name_tmp,'-dpdf','-r0')
 % mean(cell2mat(obj_all))
 % error_optima = mean(cell2mat(obj_all))

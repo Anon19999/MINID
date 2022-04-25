@@ -47,6 +47,3 @@ pos = get(h,'Position');
 set(h,'PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
 name_tmp='Data/contoning_integer_inversion.pdf';
 print(h,name_tmp,'-dpdf','-r0')
-% mean(cell2mat(obj_all))
-% error_optima = mean(cell2mat(obj_all))
-% error_rounded =mean(cell2mat(obj_val_all))

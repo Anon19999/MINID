@@ -83,4 +83,4 @@ for n_cnt=1:size(n_target,2)
     rounded_spec_all{n_cnt} = SimpleNeuralNet(round(double(x{1})-.01),w_numpy);
     obj_val_all{n_cnt} = sum(sum(abs(SimpleNeuralNet(round(double(x{1})-0.1), w_numpy)-target)));
 end
-save('rounded_inversion.mat','time_all_nonint','rounded_design_all','rounded_spec_all','obj_val_all')
+save('Data/rounded_inversion.mat','time_all_nonint','rounded_design_all','rounded_spec_all','obj_val_all')
