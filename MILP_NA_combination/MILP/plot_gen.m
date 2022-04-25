@@ -1,5 +1,5 @@
-load('../NA data/backprob_loss_NA_150_4000samples.mat')
-load('../NA data/backprob_time_NA_150_4000samples.mat')
+load('../NA/backprob_loss_NA_150_4000samples.mat')
+load('../NA/backprob_time_NA_150_4000samples.mat')
 %%
 load('Data/sample_101_4lay_150_log.mat')
 
@@ -33,7 +33,7 @@ set(gca,'FontSize',20)
 set(h,'Units','Inches');
 pos = get(h,'Position');
 set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3)-0.15, pos(4)])
-print(h,'sample_101_NA_MILP.pdf','-dpdf','-r0')
+print(h,'Data/sample_101_NA_MILP.pdf','-dpdf','-r0')
 %%
 load('Data/sample_201_4lay_150_log.mat')
 

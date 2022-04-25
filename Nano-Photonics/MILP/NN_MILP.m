@@ -40,8 +40,6 @@ for n_cnt=1:size(n_target,2)
     constraints =[];
     target = myspects(:,n_target(n_cnt))';
 
-    input_size = size(target,1);
-
     %coreset size
     input_size = size(target,1);
     Z = sdpvar(input_size,201);

@@ -1,0 +1,7 @@
+MODEL_NAME = '44ink_net_50_50'  # Make this unique for each experiment
+
+MODEL_LAYERS = [4, 50, 50, 31]
+LEARNING_RATE = 5*1e-3
+LEARNING_RATE_DECAY = 0.95
+BATCH_SIZE = 31
+NUMBER_OF_EPOCHS = 40

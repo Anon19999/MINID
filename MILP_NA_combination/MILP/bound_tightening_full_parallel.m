@@ -40,4 +40,4 @@ for n_layer= 2:size(w_numpy,2)/2
     
     
 end
-save('lower_upper_bound_8ink_net_4lay_150.mat','lower_bound_all','upper_bound_all')
+save('Data/lower_upper_bound_8ink_net_4lay_150.mat','lower_bound_all','upper_bound_all')

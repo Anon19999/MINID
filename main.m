@@ -57,6 +57,7 @@ switch e
         case 9 % MILP + NA Combination
             run("MILP_NA_combination/MILP/bound_tightening_full_parallel.m")
             run("MILP_NA_combination/MILP/NN_MILP.m")
+            run("MILP_NA_combination/MILP/read_MILP_log.m")
             run("MILP_NA_combination/MILP/plot_gen.m")
         case 10 % 4-Ink Spectral Separation
             run("Spectral separation/4-ink-net/MILP/bound_tightening_full_parallel.m")
