@@ -11,6 +11,7 @@ Gurobi v 9.01
 
 ## Instructions
 For the matlab code, install `Gurobi` and `Yalmip`, and add yalmip to the matlab path.
+Download and extract the data from [Here](https://drive.google.com/file/d/1TQIqNVP4qo3L9VL7IBjtCDmYwHqxViAg/view?usp=sharing)
 Run `main.m` and follow the given instuctions to run each experiment or plot the results.
 
 
