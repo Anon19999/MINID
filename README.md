@@ -1,8 +1,6 @@
 # Mixed Integer Neural Inverse Design
 
-This repository contains code for the following paper:
-
-+ [Mixed Integer Neural Inverse Design (arxiv)](https://arxiv.org/pdf/2109.12888.pdf)
+This repository contains code for the paper "Mixed Integer Neural Inverse Design"
 
 ## Requirements
 YALMIP Version 31-March-2021
